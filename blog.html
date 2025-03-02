@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navContainer">
+            <div class="logo"><img src="/assets/logoText.svg">
+                <h1><span>Dev</span>Board</h1>
+            </div>
+            <a href="index.html"><button class="primeBtn">Back to Desk</button></a>
+        </div>
+    </nav>
+    <h2 style="grid-column: 1 / span 3; text-align: center; font-size: 2vw;">Blogs</h2>
+
+    <section class="blogBody">
+        <div class="blogContainer">
+            <div class="blogContent">
+                <h2>Question-1: What are the different ways to select an element in the DOM?</h2>
+                <hr>
+                <p>There are several ways to select an element in the DOM, like getElementById, getElementsByClassName,
+                    querySelector, and querySelectorAll.</p>
+            </div>
+            <div class="blogContent">
+                <h2>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
+                <hr>
+                <p>The main difference between innerText, innerHTML, and textContent is: innerText returns the text
+                    inside an element, innerHTML returns the full HTML structure of the particular element, and
+                    textContent is like innerText but doesn't consider the element's styling, like display: hidden;</p>
+            </div>
+            <div class="blogContent">
+                <h2>Question-3: What is event delegation in the DOM?</h2>
+                <hr>
+                <p>Event delegation allows us to bubbling an event listener to all child elements by adding just one
+                    event listener to the parent. This makes our code run more efficiently and faster.</p>
+            </div>
+            <div class="blogContent">
+                <h2>Question-4: What is event bubbling in the DOM?</h2>
+                <hr>
+                <p>Event bubbling is... when an event listener is triggered on an element, and it doesn't stay only on
+                    that element. It also triggers its parent element, then the parent's parent, and continues going up
+                    until we stop it manually.</p>
+            </div>
+            <div class="blogContent">
+                <h2>Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+                <hr>
+                <p>for create an element I use document.createElement("tagName"); <br>
+                    for add an element I use parentName.appendChild(element); <br>
+                    for remove an element I use parent.removeChild(element);</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
