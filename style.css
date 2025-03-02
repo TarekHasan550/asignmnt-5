@@ -63,20 +63,12 @@ nav {
 }
 
 .navContainer .others h3 {
-    display: flex;
     font-size: 1.5vw;
-    align-items: center;
-    background-color: var(--bodyBgColor);
-    padding: 0.5vw 1.5vw 0.5vw 1vw;
-    border-radius: 2.5vw;
-    margin: 0 2vw 0 0;
 }
 
-.navContainer .others h3 img {
+.navContainer .others img:nth-child(1) {
     width: 1.5vw;
-    margin: 0 20% 0 0;
-    padding: 0;
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .navContainer .others img {
@@ -268,7 +260,7 @@ nav {
 
 .blogContainer .blogContent h2 {
     padding: 1vw 0;
-    font-size: 1.9vw;
+    font-size: 1.9  vw;
 }
 
 .blogContainer .blogContent hr {

@@ -52,12 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
     //clear history and reset all
     clearHistory.addEventListener("click", () => {
         History.innerHTML = "";
-        document.querySelectorAll(".boardBody button").forEach((button) => {
-            completeTask.innerText = 23;
-            pendingTask.innerText = 6;
-            button.style.opacity = 1;
-            button.removeAttribute("disabled");
-        })
+        // document.querySelectorAll(".boardBody button").forEach((button) => {
+        //     completeTask.innerText = 23;
+        //     pendingTask.innerText = 6;
+        //     button.style.opacity = 1;
+        //     button.removeAttribute("disabled");
+        // })
     })
 
     // random color generator
